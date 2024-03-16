@@ -7,13 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1.Controllers
+namespace WebApplication1.Entities
 {
     using System;
+    using System.Collections.Generic;
     
-    public partial class sp_helpdiagramdefinition_Result
+    public partial class FILME
     {
-        public Nullable<int> version { get; set; }
-        public byte[] definition { get; set; }
+        public decimal COD_FILME { get; set; }
+        public string FILME1 { get; set; }
+        public decimal COD_CATEGORIA { get; set; }
+        public string DIRETOR { get; set; }
+        public double VALOR_LOCACAO { get; set; }
+        public string RESERVADA { get; set; }
     }
 }
